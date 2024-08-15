@@ -1,14 +1,15 @@
 有幸得到冲哥指点 非常感谢～
 
-项目主要分为以下：
-1、main文件夹：区块链运行
-2、utils文件夹：负责序列化操作、哈希运算、时间戳计算等
-3、core文件夹： 核心逻辑，包括blockheader、block等业务逻辑
+# 项目主要分为以下：
+### main文件夹：区块链运行
+### utils文件夹：负责序列化操作、哈希运算、时间戳计算等
+### core文件夹： 核心逻辑，包括blockheader、block等业务逻辑
 
-项目执行：
-cargo run
+# 项目执行：
+```cargo run```
 
-运行结果：
+# 运行结果：
+```
 Hello to Jeffy BlockChain!
 Start mining ...
 Produce blocking ...
@@ -46,3 +47,4 @@ Block {
     hash: "58013e8e2565a4933105bf1b130bc1425aabe07e64d51551873f2783743b6d1f",
     data: "YaleXin => Jeffy: 2 BTC",
 }
+```
