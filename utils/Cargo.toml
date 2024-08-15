@@ -1,0 +1,11 @@
+[package]
+name = "utils"
+version = "0.1.0"
+edition = "2021"
+authors = ["JeffyItWeb3 <zhangxucan2018@163.com>"]
+
+
+[dependencies]
+serde = {version = "1.0.106", features = ["derive"]}
+bincode = "1.2.1"
+rust-crypto = "0.2"

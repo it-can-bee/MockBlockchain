@@ -1,0 +1,10 @@
+[package]
+name = "core"
+version = "0.1.0"
+edition = "2021"
+authors = ["JeffyItWeb3 <zhangxucan2018@163.com>"]
+
+[dependencies]
+chrono = "0.4"
+utils = {path = "../utils"}
+serde = {version = "1.0.106", features = ["derive"]}
