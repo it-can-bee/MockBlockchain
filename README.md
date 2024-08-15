@@ -1,10 +1,16 @@
-有幸得到冲哥指点 非常感谢～
+有幸得到冲哥指点 非常感谢～欢迎交流
 
-# 项目主要分为以下：
+我的主页：[博客园](https://www.cnblogs.com/live-passion)
+
+# 项目核心：
+![BlockChain](https://www.notion.so/Rust-Blockchain-POW-e700c4e518fd46fb867aa98ae5f09608?pvs=4#dad072147e28489ba0cba8a505ad2396)
 ### main文件夹：区块链运行
 ### utils文件夹：负责序列化操作、哈希运算、时间戳计算等
 ### core文件夹： 核心逻辑，包括blockheader、block等业务逻辑
 
+# 基础数据结构
+![区块数据结构](https://www.notion.so/Rust-Blockchain-POW-e700c4e518fd46fb867aa98ae5f09608?pvs=4#6dfb3b721e604ac2ad372a3feb67407a)
+![区块链](https://www.notion.so/Rust-Blockchain-POW-e700c4e518fd46fb867aa98ae5f09608?pvs=4#1711d156d7c04f43a218e27923de763b)
 # 项目执行：
 ```cargo run```
 
