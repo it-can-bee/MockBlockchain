@@ -44,10 +44,10 @@ where
 function:
     传入序列化以后的字节数组，返回哈希
 */
-pub fn get_hash(value: &[u8]) -> String{
+pub fn get_hash(value: &[u8], mut out: &mut [u8]) {
     let mut hasher = Sha3::sha3_256();
     hasher.input(value);
-    hasher.result_str()
+    hasher.result(&mut out);
 }
 
 
