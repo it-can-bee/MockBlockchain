@@ -8,7 +8,7 @@ CFLAGS_x86_64_apple_darwin = None
 HOST_CFLAGS = None
 CFLAGS = None
 DEBUG = Some("true")
-running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-m64" "-Wall" "-Wextra" "-o" "/Users/liangchaohuang/Desktop/test/DoubleDragon/0730/linknode/blockchain1/target/debug/build/rust-crypto-8747edea752a2fed/out/src/util_helpers.o" "-c" "src/util_helpers.c"
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-m64" "-Wall" "-Wextra" "-o" "/Users/liangchaohuang/Desktop/test/DoubleDragon/0730/linknode/blockchain/target/debug/build/rust-crypto-8747edea752a2fed/out/src/util_helpers.o" "-c" "src/util_helpers.c"
 exit status: 0
 TARGET = Some("x86_64-apple-darwin")
 OPT_LEVEL = Some("0")
@@ -20,7 +20,7 @@ CFLAGS_x86_64_apple_darwin = None
 HOST_CFLAGS = None
 CFLAGS = None
 DEBUG = Some("true")
-running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-m64" "-Wall" "-Wextra" "-o" "/Users/liangchaohuang/Desktop/test/DoubleDragon/0730/linknode/blockchain1/target/debug/build/rust-crypto-8747edea752a2fed/out/src/aesni_helpers.o" "-c" "src/aesni_helpers.c"
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-m64" "-Wall" "-Wextra" "-o" "/Users/liangchaohuang/Desktop/test/DoubleDragon/0730/linknode/blockchain/target/debug/build/rust-crypto-8747edea752a2fed/out/src/aesni_helpers.o" "-c" "src/aesni_helpers.c"
 exit status: 0
 TARGET = Some("x86_64-apple-darwin")
 TARGET = Some("x86_64-apple-darwin")
@@ -31,8 +31,8 @@ HOST_AR = None
 AR = None
 TARGET = Some("x86_64-apple-darwin")
 TARGET = Some("x86_64-apple-darwin")
-running: "ar" "crs" "/Users/liangchaohuang/Desktop/test/DoubleDragon/0730/linknode/blockchain1/target/debug/build/rust-crypto-8747edea752a2fed/out/lib_rust_crypto_helpers.a" "/Users/liangchaohuang/Desktop/test/DoubleDragon/0730/linknode/blockchain1/target/debug/build/rust-crypto-8747edea752a2fed/out/src/util_helpers.o" "/Users/liangchaohuang/Desktop/test/DoubleDragon/0730/linknode/blockchain1/target/debug/build/rust-crypto-8747edea752a2fed/out/src/aesni_helpers.o"
+running: "ar" "crs" "/Users/liangchaohuang/Desktop/test/DoubleDragon/0730/linknode/blockchain/target/debug/build/rust-crypto-8747edea752a2fed/out/lib_rust_crypto_helpers.a" "/Users/liangchaohuang/Desktop/test/DoubleDragon/0730/linknode/blockchain/target/debug/build/rust-crypto-8747edea752a2fed/out/src/util_helpers.o" "/Users/liangchaohuang/Desktop/test/DoubleDragon/0730/linknode/blockchain/target/debug/build/rust-crypto-8747edea752a2fed/out/src/aesni_helpers.o"
 exit status: 0
 TARGET = Some("x86_64-apple-darwin")
 cargo:rustc-link-lib=static=_rust_crypto_helpers
-cargo:rustc-link-search=native=/Users/liangchaohuang/Desktop/test/DoubleDragon/0730/linknode/blockchain1/target/debug/build/rust-crypto-8747edea752a2fed/out
+cargo:rustc-link-search=native=/Users/liangchaohuang/Desktop/test/DoubleDragon/0730/linknode/blockchain/target/debug/build/rust-crypto-8747edea752a2fed/out
